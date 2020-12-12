@@ -17,6 +17,9 @@ struct ContentView: View {
         VStack(spacing: 20) {
             Text("My little IOS App")
             Spacer()
+            Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+                Text("Continue")
+            }.foregroundColor(.black).padding(.horizontal,50).background(Color.red).shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 2)
             Text("App made by Lucas Goldner")
             }
         }
