@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D609D6025856FCA0091C1C9 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4DE05D26258441A100EDA325 /* MyLittleIOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLittleIOSAppApp.swift; sourceTree = "<group>"; };
 		4DE05D27258441A100EDA325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DE05D28258441A100EDA325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		4DE05D20258441A100EDA325 = {
 			isa = PBXGroup;
 			children = (
+				4D609D6025856FCA0091C1C9 /* MyPlayground.playground */,
 				4DE05D25258441A100EDA325 /* Shared */,
 				4DE05D2F258441A100EDA325 /* iOS */,
 				4DE05D36258441A100EDA325 /* macOS */,
