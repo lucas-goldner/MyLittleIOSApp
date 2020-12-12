@@ -16,9 +16,9 @@ print(myConst)
 let a = 10
 let b = 20
 
-func myFunc(a: Int, b: Int) -> Int{
+func myFunc(firstNumber a: Int,secondNumber b: Int = 0) -> Int{
     return a + b
 }
 
-let result = myFunc(a: a, b: b)
+let result = myFunc(firstNumber: a)
 print(result)
