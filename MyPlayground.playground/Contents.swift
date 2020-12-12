@@ -6,5 +6,9 @@ print(myVar)
 
 print(myVar.count)
 
-var myInt:Int = 100
+var myInt = 100
+myInt+=1
 print(myInt)
+
+let myConst:String = "I cannot be changed"
+print(myConst)
