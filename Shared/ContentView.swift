@@ -10,15 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-    VStack {
-        Text("My little IOS App")
-        
+    ZStack {
         Image("L")
             .resizable()
-            .aspectRatio(contentMode: .fit)
-        
-    }
-        
+            .aspectRatio(contentMode: .fit).colorInvert()
+        VStack(spacing: 20) {
+            Text("My little IOS App")
+            Text("App made by Lucas Goldner")
+            }
+        }
     }
 }
 
