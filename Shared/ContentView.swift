@@ -16,6 +16,7 @@ struct ContentView: View {
             .aspectRatio(contentMode: .fit).colorInvert()
         VStack(spacing: 20) {
             Text("My little IOS App")
+            Spacer()
             Text("App made by Lucas Goldner")
             }
         }
