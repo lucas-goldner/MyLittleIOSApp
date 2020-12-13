@@ -14,12 +14,13 @@ struct ContentView: View {
         Image("L")
             .resizable()
             .aspectRatio(contentMode: .fit).colorInvert()
-        VStack(spacing: 20) {
+        VStack() {
             Text("My little IOS App")
             Spacer()
-            Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                Text("Continue")
-            }.foregroundColor(.black).padding(.horizontal,50).background(Color.red).shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 2)
+            Button("Continue", action: {
+               print("Switching View")
+            }).foregroundColor(.black).padding(.horizontal,50).background(Color.red).shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 2)
+            
             Text("App made by Lucas Goldner")
             }
         }
@@ -29,5 +30,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.light)
     }
 }
